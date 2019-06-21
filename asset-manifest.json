@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/category-tree/static/css/main.12a432a9.chunk.css",
+    "main.js": "/category-tree/static/js/main.b3641fa6.chunk.js",
+    "main.js.map": "/category-tree/static/js/main.b3641fa6.chunk.js.map",
+    "runtime~main.js": "/category-tree/static/js/runtime~main.96364058.js",
+    "runtime~main.js.map": "/category-tree/static/js/runtime~main.96364058.js.map",
+    "static/css/2.55b8c119.chunk.css": "/category-tree/static/css/2.55b8c119.chunk.css",
+    "static/js/2.93d5b728.chunk.js": "/category-tree/static/js/2.93d5b728.chunk.js",
+    "static/js/2.93d5b728.chunk.js.map": "/category-tree/static/js/2.93d5b728.chunk.js.map",
+    "index.html": "/category-tree/index.html",
+    "precache-manifest.afc6ef6c83bdf6896dc497c05e82d4bc.js": "/category-tree/precache-manifest.afc6ef6c83bdf6896dc497c05e82d4bc.js",
+    "service-worker.js": "/category-tree/service-worker.js",
+    "static/css/2.55b8c119.chunk.css.map": "/category-tree/static/css/2.55b8c119.chunk.css.map",
+    "static/css/main.12a432a9.chunk.css.map": "/category-tree/static/css/main.12a432a9.chunk.css.map",
+    "static/media/index.css": "/category-tree/static/media/avenir-regular-normal.a17c827d.woff"
+  }
+}
