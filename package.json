@@ -1,15 +1,25 @@
 {
-  "name": "category-tree-extension",
+  "name": "category-tree",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://zackcalaily.github.io/category-tree",
   "dependencies": {
+    "contentful": "^7.8.0",
+    "contentful-ui-extensions-sdk": "^3.9.0",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-dropdown-tree-select": "^2.0.2",
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
+    "prestart": "contentful extension update --src http://localhost:1234 --force",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build && contentful extension update --src https://zackcalaily.github.io/category-tree --force",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -27,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "contentful-cli": "^0.28.0",
+    "gh-pages": "^2.0.1"
   }
 }
